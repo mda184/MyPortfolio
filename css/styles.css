@@ -1,0 +1,159 @@
+/****** TAG SELECTORS *******/
+body {
+  background-color:#ecf2f9;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border:dotted grey 6px;
+  border-bottom: none;
+  width:5%;
+  margin: 100px auto;
+  border
+}
+
+h1{
+  color:#488b8f;
+  margin-top: 50px auto 0 auto;
+  /* margin: 0 auto; same as 0 auto 0 auto to center for inline block that does not center when put on width */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;  /*100% is 16 px so if you want 90 px = 90/16 = 5.625% and 16 px = 100% = 1em, 40/16 = 2.5 rem */
+}
+
+h2{
+  color:#488b8f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color:#488b8f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #5ea3a3;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+
+/****** CLASS SELECTORS *******/
+
+.top-container{
+  background-color: #c8d9eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: #ecf2f9;
+  margin: 100px auto;
+}
+
+.bottom-container{
+  background-color: #c8d9eb;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+  left: 250px;
+  bottom: 300px;
+  position: absolute;
+}
+.top-cloud{
+  right: 300px;
+  top: 40px;
+  position: absolute;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row p{
+  font-size: 1rem;
+}
+
+.skill-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.rating{
+  float: left;
+  margin-top: 5px;
+}
+
+.profile img{
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+
+/****** ID SELECTORS *******/
